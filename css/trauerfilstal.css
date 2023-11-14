@@ -574,6 +574,12 @@ img {
   align-self: flex-start;
 }
 
+@media screen and (max-width: 1024px) {
+  .list {
+    width: 100%;
+  }
+}
+
 .list-item {
   color: #0b486f;
   margin-bottom: 10px;
